@@ -32,7 +32,7 @@ function generateFrames($url,$data,$playerTop,$showPlaylist){
 	
 	$fs21 = '<frameset rows="';
 	$fs22 = '" id="outerHalf" name="outerHalf" cols="*" frameborder="no" border="0" framespacing="0">';
-	$player = '<frame src="player.html?310311" name="player" id="player" scrolling="no" noresize="noresize" title="" /> ';
+	$player = '<frame src="https://cdn.rawgit.com/leonardooro/SCM-Music-Player/master/player.html?310311" name="player" id="player" scrolling="no" noresize="noresize" title="" /> ';
 	$fs23 = '</frameset>';
 	
 	if($playerTop==true)
