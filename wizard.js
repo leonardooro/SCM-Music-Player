@@ -126,7 +126,7 @@ asweb.SCMWizard = new Class({
 		$skinTemp.setStyle("display","");
 		this.skins.each(function(url,i){
 			$item = $skinTemp.clone();
-			$item.getElement("iframe").set("src","skinPreview.html#"+url);
+			$item.getElement("iframe").set("src","https://cdn.rawgit.com/leonardooro/SCM-Music-Player/master/skinPreview.html#"+url);
 			$item.getElement("input").set("value",url);
 			if(i>0)
 				$item.getElement("input").set("checked",false);
